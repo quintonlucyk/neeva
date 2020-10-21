@@ -5,10 +5,8 @@ import Search from "./pages/Search";
 
 function App() {
   const StyledApp = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5em;
+    margin: 5em auto;
+    width: 20em;
   `;
   return (
     <StyledApp>

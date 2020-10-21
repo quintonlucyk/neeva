@@ -93,10 +93,10 @@ const Search: React.FC<Props> = () => {
   return (
     <div>
       <Formik initialValues={{ search: "" }} onSubmit={searchItems}>
-        {({ values, handleSubmit }) => (
+        {({ handleSubmit }) => (
           <Form
             onSubmit={handleSubmit}
-            style={{ display: "flex", alignItems: "center" }}
+            style={{ width: "18em", margin: "0 auto" }}
           >
             <Field placeholder="Search" name="search" type="input" as={Input} />
             <Button type="submit">
